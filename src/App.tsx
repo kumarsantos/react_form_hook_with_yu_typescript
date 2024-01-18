@@ -1,8 +1,6 @@
 import './App.css'
 import {
-  Footer,
   HeroSection,
-  Navbar
 } from "./components"
 
 
@@ -10,12 +8,9 @@ import {
 function App() {
 
   return (
-    <div >
-      {/* <Navbar /> */}
+    <>
       <HeroSection />
-      {/* <Footer /> */}
-
-    </div>
+    </>
   )
 }
 
